@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.my-font {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.card {
+  @apply mb-5  block   rounded-lg border border-gray-200  shadow-md;
+}
+input,
+select,
+textarea {
+  @apply rounded outline-slate-400 outline p-2  bg-inputbg ring-indigo-300 focus:ring before:ring-indigo-100;
+}
+.primary-button {
+  @apply rounded-full font-bold  bg-secondary text-textprimary py-2 px-6 shadow outline-none hover:bg-slate-500;
+}
