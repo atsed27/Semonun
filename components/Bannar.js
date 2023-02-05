@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Bannar() {
   return (
-    <div className="h-[100vh] w-full  bg-primary pt-32 top-0 flex flex-col-reverse md:flex-row ">
+    <div className="h-screen w-full  bg-primary pt-32 top-0 flex flex-col-reverse md:flex-row ">
       <div className="flex flex-col w-full md:w-1/2 md:ml-7 space-y-5">
         <div className="flex flex-col mx-auto mt-[-10px] md:mt-10 space-y-4 mb-10 md:space-y-5">
           <h1 className="text-textprimary text-4xl w-full md:text-6xl lg:text-8xl font-righteous">
